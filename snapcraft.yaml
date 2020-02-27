@@ -1,4 +1,4 @@
-name: test-snap-lukewh
+name: test-snap-lukewh-2
 version: 0.0.4
 summary: Just a test python snap
 description: >
@@ -8,11 +8,11 @@ confinement: strict
 base: core18
 
 parts:
-  test-snap-lukewh:
+  test-snap-lukewh-2:
     plugin: python
     python-version: python3
     source: .
 
 apps:
-  test-snap-lukewh:
+  test-snap-lukewh-2:
     command: python3 test_snap.py
